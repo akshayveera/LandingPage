@@ -1,0 +1,11 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+.font-width-75 {
+  font-variation-settings: "wdth" 75;
+}
+
+.font-width-100 {
+  font-variation-settings: "wdth" 100;
+}
