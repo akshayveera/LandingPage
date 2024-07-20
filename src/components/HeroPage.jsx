@@ -9,7 +9,7 @@ const HeroPage = () => {
   return (
     <article className='w-full h-fit text-white bg-rg from-[#242241] to-[#1E1E1E] relative flex flex-col justify-center items-center pt-40 pb-32 gap-16 px-5 sm:px-20 xl:px-32 '>
 
-        <div className='h-[150vh] w-full mx-auto absolute left-[4%] top-36'>
+        <div className='h-[150vh] w-screen object-fill mx-auto absolute -left-7 top-36'>
             <img className='max-h-full min-w-full' src={gridLines} alt="" />
         </div>
 
