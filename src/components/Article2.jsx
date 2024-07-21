@@ -20,7 +20,7 @@ const Article2 = () => {
 
       <img className='pb-10 lg:h-[500px]' src={globe} alt="" />
 
-      <section className='w-full flex gap-20  items-center justify-evenly flex-wrap'>
+      <section className='w-full flex gap-14  items-center justify-evenly flex-wrap'>
 
         <div className='bg-[#6B61FF] w-[350px] h-[220px] p-6 rounded-2xl flex flex-col relative'>
 

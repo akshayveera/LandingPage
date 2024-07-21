@@ -27,9 +27,9 @@ const HeroPage = () => {
             <img className='w-[full]' src={fig1} alt="" />
         </div>
         
-        <div className='flex w-full justify-center gap-10 md:justify-evenly items-center md:items-stretch flex-col md:flex-row z-10'>
+        <div className='flex w-full  justify-center gap-10 md:justify-evenly items-center md:items-stretch flex-col md:flex-row z-10'>
 
-            <div className='bg-white w-[80%] md:w-[45%] min-h-[150px] rounded-xl bg-rg-btm from-[#a6a0ff] to-white to-60% relative p-5 flex flex-col gap-5'>
+            <div className='bg-white w-full sm:w-[80%] md:w-[45%] min-h-[150px] rounded-xl bg-rg-btm from-[#a6a0ff] to-white to-60% relative p-5 flex flex-col gap-5'>
 
                 <div className='h-8 w-[0.1rem] bg-gradient-to-t from-[transparent] via-black to-[transparent] absolute right-9 top-6'></div>
                 <div className='h-[0.1rem] w-8 bg-gradient-to-r from-[transparent] via-black to-[transparent] absolute right-5 top-10'></div>
@@ -39,7 +39,7 @@ const HeroPage = () => {
                 <p className='text-black text-[4rem] font-bricolage font-semibold font-width-75 leading-none'>2000</p>
             </div>
 
-            <div className='bg-white w-[80%] md:w-[45%] min-h-[150px]  rounded-xl bg-rg-btm from-[#a6a0ff] to-white to-60% relative p-5 flex flex-col gap-5'>
+            <div className='bg-white w-full sm:w-[80%] md:w-[45%] min-h-[150px]  rounded-xl bg-rg-btm from-[#a6a0ff] to-white to-60% relative p-5 flex flex-col gap-5'>
 
                 <div className='h-8 w-[0.1rem] bg-gradient-to-t from-[transparent] via-black to-[transparent] absolute right-9 top-6'></div>
                 <div className='h-[0.1rem] w-8 bg-gradient-to-r from-[transparent] via-black to-[transparent] absolute right-5 top-10'></div>
