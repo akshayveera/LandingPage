@@ -14,20 +14,20 @@ const HeroPage = () => {
         </div>
 
 
-        <div className='w-fit bg-gradient-to-r from-[#FFFFFF] to-[#6B61FF] bg-clip-text text-[transparent] flex flex-col gap-5'>
+        <div className='w-fit bg-gradient-to-r from-[#FFFFFF] to-[#6B61FF] bg-clip-text text-[transparent] flex flex-col gap-5 z-10'>
             <p className="font-bricolage text-5xl md:text-56 font-extrabold text-center font-width-75 leading-none">EMPOWERING THE DIGITAL ERA:</p>
             <p className="font-bricolage text-5xl md:text-56 font-extrabold text-center font-width-75 leading-none">DECENTRALIZING ENTERTAINMENT</p>
         </div>
 
-        <p className='text-[#D2D2D2] font-bricolage sm:w-[40%] text-center'>Join the world’s first DePIN: Revolutionizing Content Streaming with faster, Safer and Cheaper Access</p>
+        <p className='text-[#D2D2D2] font-bricolage sm:w-[40%] text-center z-10'>Join the world’s first DePIN: Revolutionizing Content Streaming with faster, Safer and Cheaper Access</p>
 
-        <div className='flex flex-col items-center justify-center md:w-[full]'>
+        <div className='flex flex-col items-center justify-center md:w-[full] z-10'>
             <button className='flex justify-center items-center gap-2 bg-[#6B61FF] text-sm font-semibold py-2 px-5 rounded-full z-10'>Coming Soon <img className='h-5' src={rightArrow} alt="" /></button>
 
             <img className='w-[full]' src={fig1} alt="" />
         </div>
         
-        <div className='flex w-full justify-center gap-10 md:justify-evenly items-center md:items-stretch flex-col md:flex-row '>
+        <div className='flex w-full justify-center gap-10 md:justify-evenly items-center md:items-stretch flex-col md:flex-row z-10'>
 
             <div className='bg-white w-[80%] md:w-[45%] min-h-[150px] rounded-xl bg-rg-btm from-[#a6a0ff] to-white to-60% relative p-5 flex flex-col gap-5'>
 
